@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E2C1F8B1B29E55300CC7297 /* ASDDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2C1F8A1B29E55300CC7297 /* ASDDataManager.m */; };
+		8B7C9EB51B29D357000EB3BA /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7C9EB41B29D357000EB3BA /* CoreSpotlight.framework */; };
 		8BAEF5381B29C7D40027BF75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAEF5371B29C7D40027BF75 /* main.m */; };
 		8BAEF53B1B29C7D40027BF75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAEF53A1B29C7D40027BF75 /* AppDelegate.m */; };
-		8BAEF53E1B29C7D40027BF75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAEF53D1B29C7D40027BF75 /* ViewController.m */; };
+		8BAEF53E1B29C7D40027BF75 /* ASDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAEF53D1B29C7D40027BF75 /* ASDMainViewController.m */; };
 		8BAEF5411B29C7D40027BF75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BAEF53F1B29C7D40027BF75 /* Main.storyboard */; };
 		8BAEF5431B29C7D40027BF75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAEF5421B29C7D40027BF75 /* Assets.xcassets */; };
 		8BAEF5461B29C7D40027BF75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BAEF5441B29C7D40027BF75 /* LaunchScreen.storyboard */; };
+		8BAEF54F1B29CD750027BF75 /* ASDResultsVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAEF54E1B29CD750027BF75 /* ASDResultsVCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E2C1F891B29E55300CC7297 /* ASDDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDDataManager.h; sourceTree = "<group>"; };
+		7E2C1F8A1B29E55300CC7297 /* ASDDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDDataManager.m; sourceTree = "<group>"; };
+		8B7C9EB41B29D357000EB3BA /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
 		8BAEF5331B29C7D40027BF75 /* AppSearchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppSearchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BAEF5371B29C7D40027BF75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BAEF5391B29C7D40027BF75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8BAEF53A1B29C7D40027BF75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8BAEF53C1B29C7D40027BF75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8BAEF53D1B29C7D40027BF75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BAEF53C1B29C7D40027BF75 /* ASDMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASDMainViewController.h; sourceTree = "<group>"; };
+		8BAEF53D1B29C7D40027BF75 /* ASDMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASDMainViewController.m; sourceTree = "<group>"; };
 		8BAEF5401B29C7D40027BF75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BAEF5421B29C7D40027BF75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BAEF5451B29C7D40027BF75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BAEF5471B29C7D40027BF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BAEF54D1B29CD750027BF75 /* ASDResultsVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDResultsVCViewController.h; sourceTree = "<group>"; };
+		8BAEF54E1B29CD750027BF75 /* ASDResultsVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDResultsVCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +41,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7C9EB51B29D357000EB3BA /* CoreSpotlight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E2C1F8C1B29E7A500CC7297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B7C9EB41B29D357000EB3BA /* CoreSpotlight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8BAEF52A1B29C7D40027BF75 = {
 			isa = PBXGroup;
 			children = (
@@ -60,12 +77,17 @@
 			children = (
 				8BAEF5391B29C7D40027BF75 /* AppDelegate.h */,
 				8BAEF53A1B29C7D40027BF75 /* AppDelegate.m */,
-				8BAEF53C1B29C7D40027BF75 /* ViewController.h */,
-				8BAEF53D1B29C7D40027BF75 /* ViewController.m */,
+				7E2C1F891B29E55300CC7297 /* ASDDataManager.h */,
+				7E2C1F8A1B29E55300CC7297 /* ASDDataManager.m */,
+				8BAEF53C1B29C7D40027BF75 /* ASDMainViewController.h */,
+				8BAEF53D1B29C7D40027BF75 /* ASDMainViewController.m */,
+				8BAEF54D1B29CD750027BF75 /* ASDResultsVCViewController.h */,
+				8BAEF54E1B29CD750027BF75 /* ASDResultsVCViewController.m */,
 				8BAEF53F1B29C7D40027BF75 /* Main.storyboard */,
 				8BAEF5421B29C7D40027BF75 /* Assets.xcassets */,
 				8BAEF5441B29C7D40027BF75 /* LaunchScreen.storyboard */,
 				8BAEF5471B29C7D40027BF75 /* Info.plist */,
+				7E2C1F8C1B29E7A500CC7297 /* Frameworks */,
 				8BAEF5361B29C7D40027BF75 /* Supporting Files */,
 			);
 			path = AppSearchDemo;
@@ -149,7 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BAEF53E1B29C7D40027BF75 /* ViewController.m in Sources */,
+				8BAEF53E1B29C7D40027BF75 /* ASDMainViewController.m in Sources */,
+				7E2C1F8B1B29E55300CC7297 /* ASDDataManager.m in Sources */,
+				8BAEF54F1B29CD750027BF75 /* ASDResultsVCViewController.m in Sources */,
 				8BAEF53B1B29C7D40027BF75 /* AppDelegate.m in Sources */,
 				8BAEF5381B29C7D40027BF75 /* main.m in Sources */,
 			);
@@ -264,9 +288,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppSearchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WideEyedVision.AppSearchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -275,9 +301,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppSearchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WideEyedVision.AppSearchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -300,6 +328,7 @@
 				8BAEF54C1B29C7D40027BF75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

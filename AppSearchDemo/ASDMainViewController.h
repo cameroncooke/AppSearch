@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ASDMainViewController.h
 //  AppSearchDemo
 //
 //  Created by Tudor Jenkins on 11/06/2015.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
-
+@interface ASDMainViewController : UIViewController
+- (BOOL)restoreUserActivityStateWithPersonIndex:(NSUInteger)indexOfPerson;
 @end
 

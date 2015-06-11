@@ -7,10 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "ASDDataManager.h"
+#import "ASDMainViewController.h"
+#import <CoreSpotlight/CoreSpotlight.h>
+
 
 @interface AppDelegate ()
-
 @end
+
 
 @implementation AppDelegate
 
@@ -40,6 +44,21 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void(^)(NSArray *restorableObjects))restorationHandler {
+    
+    if ([[userActivity activityType] isEqualToString:CSSearchableItemActionType]) {
+        NSString *uniqueIdentifier = [userActivity.userInfo objectForKey:CSSearchableItemActivityIdentifier];
+        NSLog(@"Got unique: %@", uniqueIdentifier);
+        
+        UINavigationController *navController = (UINavigationController *)self.window.rootViewController;
+        ASDMainViewController *controller = (ASDMainViewController *)navController.viewControllers[0];
+        return [controller restoreUserActivityStateWithPersonIndex:uniqueIdentifier.integerValue];
+    }
+    
+    return NO;
 }
 
 @end
