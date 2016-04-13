@@ -1,6 +1,6 @@
 # AppSearch Demo
 
-A demo project imeplementing the AppSearch API introduced in iOS 9.
+A demo project implementing the AppSearch API introduced in iOS 9.
 
 More information on AppSearch can be found here:
 https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/index.html
